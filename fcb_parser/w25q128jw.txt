@@ -1,0 +1,156 @@
+Tag: 42464346
+Version: 56010400
+readSampleClkSrc: 01
+csHoldTime: 03
+csSetupTime: 03
+columnAdressWidth: 00
+deviceModeCfgEnable: 01
+deviceModeType: 00
+waitTimeCfgCommands: 0000
+deviceModeSeq:
+	seqNum: 01
+	seqIdx: 06
+deviceModeArg: 00000002
+configCmdEnable: 00
+configModeType: 000000
+configCmdSeqs:
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+cfgCmdArgs: 00000000 00000000 00000000
+controllerMiscOption: 00000000
+deviceType: 01
+sflashPadType: 04
+serialClkFreq: 05
+lutCustomSeqEnable: 00
+sflashA1Size: 01000000
+sflashA2Size: 00000000
+sflashB1Size: 00000000
+sflashB2Size: 00000000
+csPadSettingOverride: 00000000
+sclkPadSettingOverride: 00000000
+dataPadSettingOverride: 00000000
+dqsPadSettingOverride: 00000000
+timeoutInMs: 00000000
+commandInterval: 00000032
+dataValidTime: 00000000
+busyOffset: 0000
+busyBitPolarity: 0000
+lookupTable:
+	0:
+		FLEXSPI_LUT_SEQ(01, 00, eb, 02, 02, 18)
+		FLEXSPI_LUT_SEQ(0c, 02, 06, 09, 02, 04)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	1:
+		FLEXSPI_LUT_SEQ(01, 00, 05, 09, 00, 04)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	2:
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	3:
+		FLEXSPI_LUT_SEQ(01, 00, 06, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	4:
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	5:
+		FLEXSPI_LUT_SEQ(01, 00, 20, 02, 00, 18)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	6:
+		FLEXSPI_LUT_SEQ(01, 00, 31, 08, 00, 01)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	7:
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	8:
+		FLEXSPI_LUT_SEQ(01, 00, d8, 02, 00, 18)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	9:
+		FLEXSPI_LUT_SEQ(01, 00, 02, 02, 00, 18)
+		FLEXSPI_LUT_SEQ(08, 00, 04, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	10:
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	11:
+		FLEXSPI_LUT_SEQ(01, 00, 60, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	12:
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	13:
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	14:
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+	15:
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+		FLEXSPI_LUT_SEQ(00, 00, 00, 00, 00, 00)
+lutCustomSeq:
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+	seqNum: 00
+	seqIdx: 00
+pageSize: 00000100
+sectorSize: 00001000
+ipCmdSerialClkFreq: 00000001
+isUniformBlockSize: 00000000
+serialNorType: 00
+needExitNoCmdMode: 00000100
+halfClkForNonReadCmd: 01
+needrestorNoCmdMode: 00
+blockSize: 00010000
