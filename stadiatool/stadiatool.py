@@ -114,7 +114,7 @@ def flashRead32(fl, offset, size):
     # IPTXFCR = 1
     writeFlashRegister(fl, 0xBC, 1)
     # seqId 0 == read/device_id depending on configuration block
-    # IPCR1 = FLEXSPI_IPCR1_ISEQID(0) | FLEXSPI_IPCR1_IDATSZ(4)
+    # IPCR1 = FLEXSPI_IPCR1_ISEQID(0) | FLEXSPI_IPCR1_IDATSZ(size)
     writeFlashRegister(fl, 0xA4, size & 0xffff)
     # IPCMD = 1
     writeFlashRegister(fl, 0xB0, 1)
@@ -266,8 +266,8 @@ def dumpFlash(dev):
         print('Usage:\npython3 stadiatool.py dump <start> <end> <dump.bin>')
         sys.exit(1)
 
-    offset = int(sys.argv[2])
-    end = int(sys.argv[3])
+    offset = int(sys.argv[2], 0)
+    end = int(sys.argv[3], 0)
 
     fl = flashloader.Flashloader(dev)
 
@@ -282,7 +282,7 @@ def dumpFlash(dev):
         for i in range(offset // 4, end // 4):
             while True:
                 try:
-                    flash_data = struct.pack('<I', flashRead32(fl, i * 4))
+                    flash_data = struct.pack('<I', flashRead32(fl, i * 4, 4))
                 except ReadFailedException as e:
                     print(f'\nFailed to read from 0x{i * 4:08x} ({e}), trying again...')
                     continue
