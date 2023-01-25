@@ -204,10 +204,11 @@ class FirmwareBuildInfo:
             print(f'Invalid build info. Expected header of 0x747315A2, got 0x{header:08x} instead')
             sys.exit(1)
         if footer != 0x4786CD88:
-            print(f'Invalid build info. Expected footer of 0x4786CD88, got 0x{header:08x} instead')
+            print(f'Invalid build info. Expected footer of 0x4786CD88, got 0x{footer:08x} instead')
             sys.exit(1)
         if size != 0x100:
             print('Unexpected build info size: {buildInfo.size}')
+            sys.exit(1)
 
         # get reset handler address
         reset_handler_offset = 4
